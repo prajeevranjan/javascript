@@ -7,7 +7,14 @@ accountCity = "bokaro"
 accountPassword = "29110"
 accountEmail = "anc@gmail.com"
 accountCity = "nkaak"
+let accountState
+
+
+/*
+prefer not to use var because of issue in block scop 
+and functional scope.
+*/
 
 console.log(accountId);
 
-console.table([accountId, accountEmail, accountPassword, accountCity])
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
