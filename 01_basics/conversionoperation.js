@@ -28,3 +28,10 @@ let num = 28
 let strnum = String(num)
 console.log(typeof strnum)
 console.log(strnum)
+
+// ------------ operations -----------
+
+let value = 3
+let negvalue = -value
+console.log(value)
+console.log(negvalue)
